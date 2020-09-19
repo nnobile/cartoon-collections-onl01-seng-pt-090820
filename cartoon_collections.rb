@@ -23,9 +23,4 @@ array.each do |cheese|
     if cheese_types.include?(cheese)
       return cheese
     end
-      array.each do |no_cheese|
-        if cheese_types.exclude?(cheese)
-          return nil
-    end
   end
-end

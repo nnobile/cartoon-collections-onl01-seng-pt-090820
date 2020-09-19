@@ -27,3 +27,5 @@ array.each do |cheese|
         if cheese_types.exclude?(cheese)
           return nil
     end
+  end
+end

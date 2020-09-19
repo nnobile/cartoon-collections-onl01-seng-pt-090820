@@ -28,4 +28,3 @@ array.each do |cheese|
           return nil
     end
   end
-end

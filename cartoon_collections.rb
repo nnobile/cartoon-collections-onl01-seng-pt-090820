@@ -24,5 +24,4 @@ array.each do |cheese, nil|
       return cheese
     else return nil
     end
-  end
 end

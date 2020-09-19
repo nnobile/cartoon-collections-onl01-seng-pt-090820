@@ -26,5 +26,5 @@ array.each do |cheese|
       return cheese
     end
   end
-  #return nil
+  nil
 end

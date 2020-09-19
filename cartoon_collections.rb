@@ -23,6 +23,6 @@ array.each do |cheese|
     if cheese_types.include?(cheese)
       return cheese
     end
-    return nil
   end
+  return nil
 end

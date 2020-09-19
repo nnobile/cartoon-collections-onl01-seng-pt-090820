@@ -22,7 +22,9 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 array.each do |cheese|
     if cheese_types.include?(cheese)
       return cheese
-    else nil
+array.each do |no_cheese|
+  if cheese_types.exclude?(cheese)
+    return nil
     end
   end
 end

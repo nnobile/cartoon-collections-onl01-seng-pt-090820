@@ -23,4 +23,5 @@ array.each do |cheese|
     if cheese_types.include?(cheese)
       return cheese
     end
+  end
 end
